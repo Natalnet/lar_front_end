@@ -1,0 +1,31 @@
+
+
+.device {
+    background: #000;
+    margin-top: 20px; 
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    background: #FFF;
+}
+.device header {
+    padding: 15px; 
+    display: flex; 
+    align-content: center; 
+    justify-content: space-between; 
+}
+
+.device header .device-info {
+    display: flex;
+    flex-direction: column; 
+}
+
+.device header .device-info span {
+    font-size: 13px 
+}
+
+.device header .device-info span.status {
+    font-size: 11px; 
+    color: #666; 
+    margin-top: 3px;  
+}
+
